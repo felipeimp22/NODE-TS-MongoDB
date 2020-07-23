@@ -1,0 +1,29 @@
+{
+  "name": "testeV12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@decorators/mongoose": "^3.0.1",
+    "@types/cors": "^2.8.6",
+    "@types/mongoose": "^5.7.32",
+    "@types/require-dir": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "reflect-metadata": "^0.1.13",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  }
+}
